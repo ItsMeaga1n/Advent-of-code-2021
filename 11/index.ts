@@ -100,10 +100,6 @@ for(let i = 0; i < 100; i++) {
         state[parseInt(x)][parseInt(y)] = 0;
         totalFlashes += 1;
     });
-    if(flashed.size === 100) {
-        console.log(`All flashed on step ${i + 1}`)
-    }
 }
-
 
 console.log(totalFlashes);
